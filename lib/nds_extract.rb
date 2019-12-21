@@ -5,7 +5,7 @@ require 'directors_database'
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 
-pp directors_data 
+pp directors_database
 
 #director_totals = nds[row_index][:movies][column_index][:worldwide_gross]
 
