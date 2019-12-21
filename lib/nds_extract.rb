@@ -14,7 +14,7 @@ def directors_totals(nds)
   row_index = 0 
   
   while row_index < nds.length do
-    totals[nds[row_index][:name]] = gross_for_director[nds[row_index]]
+    totals[nds[row_index][:name]] = gross_for_director(nds[row_index])
     row_index += 1 
   end
   totals
