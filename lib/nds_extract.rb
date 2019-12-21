@@ -26,7 +26,7 @@ end
 
 
 def gross_for_director(director_data)
-  gross_totals = {}
+  gross_totals = 0
   row_index = 0 
   
   while row_index < director_data[:movies].length do
